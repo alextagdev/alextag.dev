@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-gray-800">
-      <div className="container mx-auto">
+    <footer className="bg-gray-800 py-6">
+      <div className="container mx-auto px-4">
         <div className="text-center text-white">
           <h2 className="text-xl font-semibold mb-2">Connect with me</h2>
           <ul className="flex justify-center space-x-4 mb-4">

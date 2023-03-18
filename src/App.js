@@ -253,25 +253,25 @@ function App() {
     <div class="container newcointainersize mx-auto px-4 mx-1.50 py-2 flex justify-center md:justify-between">
       <button
         id="experience-toggle"
-        class="bg-blue-400 uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400 text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Experience 
       </button>
       <button
         id="education-toggle"
-        class="bg-blue-400  uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400  text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Education
       </button>
       <button
         id="skills-toggle"
-        class="bg-blue-400 uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400 text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Skills
       </button>
       <button
         id="portofolio-toggle"
-        class="bg-blue-400  uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400  text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Portofolio
       </button>
