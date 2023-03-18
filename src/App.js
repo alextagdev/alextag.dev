@@ -245,7 +245,7 @@ function App() {
   return (
     <div class="container newcointainersize mx-auto max-w-screen-md px-4 mx-1.50 py-2 flex justify-center md:justify-between">
     <div class="bg-gray-100 min-h-screen">
-      <header class="bg-white shadow-md">
+      <header class="">
     <div class="container newcointainersize mx-auto px-4 mx-1.50 py-2 flex justify-center md:justify-between">
       <button
         id="experience-toggle"
@@ -279,7 +279,7 @@ function App() {
     </div>
   </header>
 
-  <div class="container bg-blue-100 mx-auto px-4 py-8 px-4 flex">
+  <div class="bg-blue-100 mx-5 p-4 md:p-8 px-4 mb-5 mt-5 flex rounded shadow-md">
   <div>
     <h1 class="text-4xl font-bold mb-4">Alex Tag</h1>
     <p class="text-gray-700">Web Developer</p>
@@ -299,7 +299,7 @@ function App() {
   <div id="experience" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
   <div id="education" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
   <div id="skills" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
-  <div id="portofolio" class="hidden bg-blue-200 -5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
+  <div id="portofolio" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
 
       </div>
     </div>
