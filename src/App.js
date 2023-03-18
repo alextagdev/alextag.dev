@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Footer from './components/Footer';
+
+
 
 const aboutText = `Hello! I am <strong>Alexandru G Tugui</strong>.
 I am a Web Design Freelancer from <strong>Craiova</strong>, specialized in creating websites. Young and ambitious, I seek to learn and develop every day with each project I complete. I have experience in HTML, CSS, JavaScript, and TailwindCSS, WordPress and I am always eager to learn and apply new technologies. I thrive in collaborative environments and am passionate about creating user-friendly and accessible web applications.`;
@@ -243,31 +246,32 @@ const avatarurl = 'https://alextag.ro/wp-content/uploads/2021/02/60251212_452404
 
 function App() {
   return (
+    <div className="App">
     <div class="container newcointainersize mx-auto max-w-screen-md px-4 mx-1.50 py-2 flex justify-center md:justify-between">
     <div class="bg-gray-100 min-h-screen">
       <header class="">
     <div class="container newcointainersize mx-auto px-4 mx-1.50 py-2 flex justify-center md:justify-between">
       <button
         id="experience-toggle"
-        class="bg-blue-400  text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400 uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Experience 
       </button>
       <button
         id="education-toggle"
-        class="bg-blue-400  text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400  uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Education
       </button>
       <button
         id="skills-toggle"
-        class="bg-blue-400  text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400 uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Skills
       </button>
       <button
         id="portofolio-toggle"
-        class="bg-blue-400  text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
+        class="bg-blue-400  uppercase text-white font-bold py-1 px-3 rounded shadow-md mx-1 text-sm btn-desktop"
       >
         Portofolio
       </button>
@@ -302,6 +306,8 @@ function App() {
   <div id="portofolio" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
 
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }
