@@ -279,7 +279,7 @@ function App() {
     </div>
   </header>
 
-  <div class="container mx-auto px-4 py-8 px-4 flex">
+  <div class="container bg-blue-100 mx-auto px-4 py-8 px-4 flex">
   <div>
     <h1 class="text-4xl font-bold mb-4">Alex Tag</h1>
     <p class="text-gray-700">Web Developer</p>
@@ -295,11 +295,11 @@ function App() {
 </div>
   
 </div>
-<div id="about" class="bg-blue-200 text-blue-900 mx-5 p-4 md:p-8 rounded shadow-md mx-auto"></div>
-  <div id="experience" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md mx-auto"></div>
-  <div id="education" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md mx-auto"></div>
-  <div id="skills" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md mx-auto"></div>
-  <div id="portofolio" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md mx-auto"></div>
+<div id="about" class="bg-blue-200 text-blue-900 mx-5 p-4 md:p-8 rounded shadow-md"></div>
+  <div id="experience" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
+  <div id="education" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
+  <div id="skills" class="hidden bg-blue-200 mx-5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
+  <div id="portofolio" class="hidden bg-blue-200 -5 text-blue-900  p-4 md:p-8 rounded shadow-md"></div>
 
       </div>
     </div>
