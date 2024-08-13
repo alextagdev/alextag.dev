@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 
 const aboutText = `Hello! I am <strong>Alexandru G Tugui</strong>.
-I am a Web Design Freelancer from <strong>Craiova</strong>, specialized in creating websites. Young and ambitious, I seek to learn and develop every day with each project I complete. I have experience in HTML, CSS, JavaScript, and TailwindCSS, WordPress and I am always eager to learn and apply new technologies. I thrive in collaborative environments and am passionate about creating user-friendly and accessible web applications.`;
+I am a <a href="https://alextag.ro">Web Design</a> Freelancer from <strong>Craiova</strong>, specialized in creating websites. Young and ambitious, I seek to learn and develop every day with each project I complete. I have experience in HTML, CSS, JavaScript, and TailwindCSS, WordPress and I am always eager to learn and apply new technologies. I thrive in collaborative environments and am passionate about creating user-friendly and accessible web applications.`;
   
   const experienceData = [
   {
