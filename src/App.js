@@ -277,7 +277,7 @@ function App() {
       </button>
       <span class="hidden md:block md:text-lg md:font-semibold md:text-gray-900 py-2 md:mr-6 texspace-left whitespace-nowrap ml-auto">Ai nevoie de ajutor ?</span>
    <button class="hidden md:block contact-me-btn bg-green-500 text-white font-semibold text-lg py-2 px-6 rounded-lg hover:bg-green-600 transform hover:-translate-y-1 transition-all duration-200 ml-auto">
-  Contact
+  Contactează-mă
 </button>
 
     </div>
